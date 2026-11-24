@@ -1,0 +1,31 @@
+{
+  "name": "caliper-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "brand": "node brand/render.mjs ../assets",
+    "shots": "node tools/shots.mjs",
+    "flows": "node tools/flows.mjs"
+  },
+  "dependencies": {
+    "@fontsource/red-hat-display": "5.3.0",
+    "@fontsource/red-hat-mono": "5.3.0",
+    "lottie-web": "5.13.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "5.1.1",
+    "playwright-core": "^1.63.0",
+    "typescript": "5.9.3",
+    "vite": "7.3.6",
+    "vitest": "4.1.11"
+  }
+}

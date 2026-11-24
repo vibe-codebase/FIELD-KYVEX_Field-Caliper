@@ -1,0 +1,10 @@
+Company:        FIELD KYVEX
+App name:       Field Caliper
+Package:        com.fieldkyvex.fieldcaliper
+Expo owner:     mini55
+Expo slug:      field-kyvex
+Version:        1.0.0 (versionCode 2)
+Target/compile: SDK 36   Min SDK: 24
+Permissions:    android.permission.VIBRATE
+Studio motto:   Measure true, wherever you are.
+Type:           App (tool), Play category Tools
